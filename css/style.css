@@ -819,6 +819,9 @@ border: 4px solid var(--primary-color) ;
                    
                 }
             @media screen and (max-width: 860px){
+                body{
+                    overflow-x: hidden;
+                }
                 .about-content {
                     grid-template-columns: 1fr;
                 }
@@ -925,7 +928,7 @@ border: 4px solid var(--primary-color) ;
                     align-items: flex-start;
                 }
                 .bactToTop-icon{
-                    right: 1rem;
+                    right: 2.5rem;
                 }
             }
              @media screen and (max-width: 723px){
@@ -1020,10 +1023,13 @@ border: 4px solid var(--primary-color) ;
                  .section.footer{
                     padding-bottom: 0 ;
                 }
-            }
-            @media screen and (max-width: 350px){
                 .aboutimg-textBox{
                     right: -2rem;
                 }
+                .section-title, .section-decription{
+                    font-size: var(--smaller-font);
+                }
+            }
+            @media screen and (max-width: 350px){
 
             }
